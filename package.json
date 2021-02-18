@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "banco-de-dados-sqlite",
+  "version": "0.0.1",
+  "description": "Electron App com banco sqlite",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -17,6 +17,10 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^11.2.3"
+    "electron": "^11.2.3",
+    "electron-reloader": "^1.2.0"
+  },
+  "dependencies": {
+    "sqlite3": "^5.0.2"
   }
 }

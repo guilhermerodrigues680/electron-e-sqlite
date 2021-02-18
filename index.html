@@ -5,13 +5,34 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <title>Cadastro De Pessoa</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <h1>Cadastro De Pessoa</h1>
+    <div>
+      <span>We are using Node.js <span id="node-version"></span>,</span>
+      <span>Chromium <span id="chrome-version"></span>,</span>
+      <span>and Electron <span id="electron-version"></span>.</span>
+    </div>
+
+    <br>
+
+    <form action="#" id="form-cadastro-pessoa">
+      <label>
+        <span>Nome:</span>
+        <input type="text" name="nome">
+      </label>
+      <label>
+        <span>Idade:</span>
+        <input type="text" name="idade">
+      </label>
+      <input type="submit" value="Cadastrar">
+    </form>
+
+    <br>
+    <h2>Pessoas cadastradas</h2>
+    
+    <ul id="ul-pessoas-cadastradas"></ul>
 
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
