@@ -18,7 +18,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^11.2.3",
-    "electron-reloader": "^1.2.0"
+    "electron-reloader": "^1.2.2"
   },
   "dependencies": {
     "sqlite3": "^5.0.2"
