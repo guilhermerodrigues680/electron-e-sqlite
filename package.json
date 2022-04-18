@@ -21,6 +21,6 @@
     "electron-reloader": "^1.2.0"
   },
   "dependencies": {
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.0.4"
   }
 }
